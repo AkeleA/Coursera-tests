@@ -8,8 +8,8 @@
   var byeSpeaker = {};
   byeSpeaker.speak = "Mene";
   var speakWord = "Good Bye";
-  byeSpeaker.speak = function() {
-    console.log(speakWord + " " + byeSpeaker.speak);
+  byeSpeaker.speak = function(name) {
+    console.log(speakWord + " " + name);
   }
   window.byeSpeaker = byeSpeaker;
   
